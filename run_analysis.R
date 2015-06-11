@@ -17,8 +17,10 @@ trainSubjects<-read.table("train/subject_train.txt")
 
 trainActivities<-read.table("train/y_test.txt")
 
-xtrain2<-cbind(testSubjects,cbind(testActivities, xtest))
+xtrain2<-cbind(trainSubjects,cbind(trainActivities, xtrain))
 
 names(xtrain2) <- c("Subject", "Activities", featuresVar$V2)
+##
+hards <- rbind(xtrain2,xtest2[1:length(xtest2[,1]),])
 
-hards <- merge(xtrain2, xtest2)
+names(hards) <- c("Subject", "Activities", featuresVar$V2)
