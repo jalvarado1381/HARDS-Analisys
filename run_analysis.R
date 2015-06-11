@@ -1,4 +1,6 @@
 #HARDS Analisys
+
+# 1.- Merges the training and the test sets to create one data set.
 featuresVar<-read.table("features.txt")
 
 xtest<-read.table("test/X_test.txt")
@@ -24,3 +26,10 @@ names(xtrain2) <- c("Subject", "Activities", featuresVar$V2)
 hards <- rbind(xtrain2,xtest2[1:length(xtest2[,1]),])
 
 names(hards) <- c("Subject", "Activities", featuresVar$V2)
+
+#2.- Extracts only the measurements on the mean and standard deviation for each measurement.
+hards[grep("mean()", names(hards), fixed=TRUE)]
+hards[grep("std()", names(hards), fixed=TRUE)]
+
+
+
