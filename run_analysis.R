@@ -15,7 +15,7 @@ xtrain<-read.table("train/X_train.txt")
 
 trainSubjects<-read.table("train/subject_train.txt")
 
-trainActivities<-read.table("/y_test.txt")
+trainActivities<-read.table("train/y_test.txt")
 
 xtrain2<-cbind(testSubjects,cbind(testActivities, xtest))
 
