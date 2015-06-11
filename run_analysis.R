@@ -1,7 +1,8 @@
 #HARDS Analisys
 
 # 1.- Merges the training and the test sets to create one data set.
-featuresVar<-read.table("features.txt")
+featuresVar<-read.table("features.txt", stringsAsFactors=FALSE)
+activityLabels<-read.table("activity_labels.txt", stringsAsFactors=FALSE)
 
 xtest<-read.table("test/X_test.txt")
 
@@ -27,9 +28,25 @@ hards <- rbind(xtrain2,xtest2[1:length(xtest2[,1]),])
 
 names(hards) <- c("Subject", "Activities", featuresVar$V2)
 
-#2.- Extracts only the measurements on the mean and standard deviation for each measurement.
+# 2.- Extracts only the measurements on the mean and standard deviation for each measurement.
 hards[grep("mean()", names(hards), fixed=TRUE)]
 hards[grep("std()", names(hards), fixed=TRUE)]
 
+mean.std.indexes <-c(grep("mean()",names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
 
+hards[c(1,2,mean.std.indexes)]
+
+#hards[c(grep("std()",names(hards), fixed=TRUE), grep("mean()",names(hards), fixed=TRUE))]
+
+# 3.- Uses descriptive activity names to name the activities in the data set
+for (l in activityLabels[[1]]){
+  hards1$Activities[hards1$Activities==l] <- activityLabels[l,2]
+}
+
+# 4.- Appropriately labels the data set with descriptive variable names.
+
+names(hards) <- c("Subject", "Activities", featuresVar$V2)
+
+
+# 5.- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
