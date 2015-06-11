@@ -45,8 +45,7 @@ for (l in activityLabels[[1]]){
 
 # 4.- Appropriately labels the data set with descriptive variable names.
 
-names(hards) <- c("Subject", "Activities", featuresVar$V2)
-
+names(hards1) <- c("SubjectID", "ActivityName", names(hards1)[3:68])
 
 # 5.- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
