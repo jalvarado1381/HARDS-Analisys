@@ -57,7 +57,7 @@ for(id in 1:30){
   for(a in 1:6){
     
     tempdf <-hards1[hards1$SubjectID==id & hards1$ActivityName==activityLabels[2,2],]
-    hards2sapply(tempdf)
+    sapply(tempdf)
     
   }
   
