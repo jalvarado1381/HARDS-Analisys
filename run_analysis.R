@@ -38,8 +38,6 @@ mean.std.rows <-c(grep("mean()",names(hards), fixed=TRUE), grep("std()",names(ha
 hards1<-hards[c(1,2,mean.std.rows)]
 
 
-
-
 #hards[c(grep("std()",names(hards), fixed=TRUE), grep("mean()",names(hards), fixed=TRUE))]
 
 # 3.- Uses descriptive activity names to name the activities in the data set
@@ -58,7 +56,8 @@ for(id in 1:30){
   
   for(a in 1:6){
     
-    
+    tempdf <-hards1[hards1$SubjectID==id & hards1$ActivityName==activityLabels[2,2],]
+    hards2sapply(tempdf)
     
   }
   
