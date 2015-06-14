@@ -1,7 +1,9 @@
 # HARDS Analisys
 
 ##Resume
-Given a Human Activity Recognition Data Set we'll get a new data set.
+Given a Human Activity Recognition Data Set we'll get a new tidy data set.
+
+## Data Set Explanation
 
 ##Script Explanation
 featuresVar<-read.table("features.txt")
