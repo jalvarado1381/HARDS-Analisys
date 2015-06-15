@@ -7,6 +7,7 @@ Given a Human Activity Recognition Data Set we'll get a new tidy data set.
 Given a set of files that store data from a survey 
 
 https://en.wikipedia.org/wiki/Arithmetic_mean
+
 https://en.wikipedia.org/wiki/Average#Arithmetic_mean
 
 ##Script Explanation
