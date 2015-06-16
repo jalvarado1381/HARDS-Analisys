@@ -11,11 +11,10 @@
 The Subject ID is a number used to identify the subject under analisys. It is a numeric variable that take values from 1 to 30, since 30 was the total of person in the investigation.
 - - -
 * activityname: 
-
 - - -
 * tbodyaccmeanx
-* 
 - - -
+ 
 * tbodyaccmeany
 * 
 - - -
