@@ -14,8 +14,13 @@ It take values from 1 to 30, since 30 was the total of people in the research.
 
 The number 1 represent the first person, the number 2 the second,  and so on...
 
+At the final Data Set you're going to observe each value is repeated 6 times along with the variable activityname.
+
 - - -
 * **activityname**
+It is a Character variable that represent each of the six activities performed by the subjects.
+
+Tha values you can find here are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 - - -
 * **tbodyaccmeanx**
