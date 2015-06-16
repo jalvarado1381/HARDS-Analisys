@@ -5,6 +5,10 @@ date: "15/06/2015"
 output: html_document
 ---
 
+```{r}
+summary(cars)
+```
+
 ##Study design
 ##Code Book
 
