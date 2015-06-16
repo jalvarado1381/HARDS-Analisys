@@ -3,7 +3,7 @@
 ##Resume
 Given a Human Activity Recognition Data Set we'll get a new tidy data set.
 
-## Problem and Data Set Analisys
+## Problem and Data Set Analysis
 Given a set of files that store data from a survey 
 
 https://en.wikipedia.org/wiki/Arithmetic_mean
