@@ -177,26 +177,36 @@ The Subject ID is a number used to identify the subject under analisys. It is a 
 
 - - -
 * fbodyaccstdy
+
 - - -
 * fbodyaccstdz
+
 - - -
 * fbodyaccjerkstdx
+
 - - -
 * fbodyaccjerkstdy
+
 - - -
 * fbodyaccjerkstdz
+
 - - -
 * fbodygyrostdx
+
 - - -
 * fbodygyrostdy
+
 - - -
 * fbodygyrostdz
+
 - - -
 * fbodyaccmagstd
+
 - - -
 * fbodybodyaccjerkmagstd
+
 - - -
 * fbodybodygyromagstd
+
 - - -
 * fbodybodygyrojerkmagstd
-- - -
