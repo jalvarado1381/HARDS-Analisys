@@ -18,10 +18,10 @@ At the final Data Set you're going to observe each value is repeated 6 times alo
 
 - - -
 * **activityname**
-* 
+
 It is a Character variable that represent each of the six activities performed by the subjects.
 
-Tha values you can find here are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+Tha values you can find here are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING
 
 - - -
 * **tbodyaccmeanx**
