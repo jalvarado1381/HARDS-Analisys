@@ -1,3 +1,9 @@
+---
+title: "The Code Book"
+author: "Juan A. Alvarado P."
+date: "15/06/2015"
+output: html_document
+---
 
 ##Study design
 ##Code Book
