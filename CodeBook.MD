@@ -15,17 +15,22 @@ The Subject ID is a number used to identify the subject under analisys. It is a 
 
 - - -
 * tbodyaccmeanx
+
 - - -
 * tbodyaccmeany
-* 
+
 - - -
 * tbodyaccmeanz
+
 - - -
 * tgravityaccmeanx
+
 - - -
 * tgravityaccmeany
+
 - - -
 * tgravityaccmeanz
+
 - - -
 * tbodyaccjerkmeanx
 - - -
