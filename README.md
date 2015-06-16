@@ -1,4 +1,4 @@
-# HARDS Analisys
+# HARDS Analysis
 
 ##Resume
 Given a Human Activity Recognition Data Set we'll get a new tidy data set.
