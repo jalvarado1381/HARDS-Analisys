@@ -8,7 +8,11 @@
 - - - 
 * **subjectid**
 
-The Subject ID is a number used to identify the subject under analisys. It is a numeric variable that take values from 1 to 30, since 30 was the total of person in the investigation.
+The Subject ID is a number used to identify the subject under analysis. 
+
+It take values from 1 to 30, since 30 was the total of people in the research.
+
+The number 1 represent the first person, the number 2 the second,  and so on...
 
 - - -
 * **activityname**
@@ -26,187 +30,187 @@ The Subject ID is a number used to identify the subject under analisys. It is a 
 * **tgravityaccmeanx**
 
 - - -
-* tgravityaccmeany
+* **tgravityaccmeany**
 
 - - -
-* tgravityaccmeanz
+* **tgravityaccmeanz**
 
 - - -
-* tbodyaccjerkmeanx
+* **tbodyaccjerkmeanx**
 
 - - -
-* tbodyaccjerkmeany
+* **tbodyaccjerkmeany**
 
 - - -
-* tbodyaccjerkmeanz
+* **tbodyaccjerkmeanz**
 
 - - -
-* tbodygyromeanx
+* **tbodygyromeanx**
 
 - - -
-* tbodygyromeany
+* **tbodygyromeany**
 
 - - -
-* tbodygyromeanz
+* **tbodygyromeanz**
 
 - - -
-* tbodygyrojerkmeanx
+* **tbodygyrojerkmeanx**
 
 - - -
-* tbodygyrojerkmeany
+* **tbodygyrojerkmeany
 
 - - -
-* tbodygyrojerkmeanz
+* **tbodygyrojerkmeanz**
 
 - - -
-* tbodyaccmagmean
+* **tbodyaccmagmean**
 
 - - -
-* tgravityaccmagmean
+* **tgravityaccmagmean**
 
 - - -
-* tbodyaccjerkmagmean
+* **tbodyaccjerkmagmean**
 
 - - -
-* tbodygyromagmean
+* **tbodygyromagmean**
 
 - - -
-* tbodygyrojerkmagmean
+* **tbodygyrojerkmagmean**
 
 - - -
-* fbodyaccmeanx
+* **fbodyaccmeanx**
 
 - - -
-* fbodyaccmeany
+* **fbodyaccmeany**
 
 - - -
-* fbodyaccmeanz
+* **fbodyaccmeanz**
 
 - - -
-* fbodyaccjerkmeanx
+* **fbodyaccjerkmeanx**
 
 - - -
-* fbodyaccjerkmeany
+* **fbodyaccjerkmeany**
 
 - - -
-* fbodyaccjerkmeanz
+* **fbodyaccjerkmeanz**
 
 - - -
-* fbodygyromeanx
+* **fbodygyromeanx**
 
 - - -
-* fbodygyromeany
+* **fbodygyromeany**
 
 - - -
-* fbodygyromeanz
+* **fbodygyromeanz**
 
 - - -
-* fbodyaccmagmean
+* **fbodyaccmagmean**
 
 - - -
-* fbodybodyaccjerkmagmean
+* **fbodybodyaccjerkmagmean**
 
 - - -
-* fbodybodygyromagmean
+* **fbodybodygyromagmean**
 
 - - -
-* fbodybodygyrojerkmagmean
+* **fbodybodygyrojerkmagmean**
 
 - - -
-* tbodyaccstdx
+* **tbodyaccstdx**
 
 - - -
-* tbodyaccstdy
+* **tbodyaccstdy**
 
 - - -
-* tbodyaccstdz
+* **tbodyaccstdz**
 
 - - -
-* tgravityaccstdx
+* **tgravityaccstdx**
 
 - - -
-* tgravityaccstdy
+* **tgravityaccstdy**
 
 - - -
-* tgravityaccstdz
+* **tgravityaccstdz**
 
 - - -
-* tbodyaccjerkstdx
+* **tbodyaccjerkstdx**
 
 - - -
-* tbodyaccjerkstdy
+* **tbodyaccjerkstdy**
 
 - - -
-* tbodyaccjerkstdz
+* **tbodyaccjerkstdz**
 
 - - -
-* tbodygyrostdx
+* **tbodygyrostdx**
 
 - - -
-* tbodygyrostdy
+* **tbodygyrostdy**
 
 - - -
-* tbodygyrostdz
+* **tbodygyrostdz**
 
 - - -
-* tbodygyrojerkstdx
+* **tbodygyrojerkstdx**
 
 - - -
-* tbodygyrojerkstdy
+* **tbodygyrojerkstdy**
 
 - - -
-* tbodygyrojerkstdz
+* **tbodygyrojerkstdz**
 
 - - -
-* tbodyaccmagstd
+* **tbodyaccmagstd**
 
 - - -
-* tgravityaccmagstd
+* **tgravityaccmagstd**
 
 - - -
-* tbodyaccjerkmagstd
+* **tbodyaccjerkmagstd**
 
 - - -
-* tbodygyromagstd
+* **tbodygyromagstd**
 
 - - -
-* tbodygyrojerkmagstd
+* **tbodygyrojerkmagstd**
 
 - - -
-* fbodyaccstdx
+* **fbodyaccstdx**
 
 - - -
-* fbodyaccstdy
+* **fbodyaccstdy**
 
 - - -
-* fbodyaccstdz
+* **fbodyaccstdz**
 
 - - -
-* fbodyaccjerkstdx
+* **fbodyaccjerkstdx**
 
 - - -
-* fbodyaccjerkstdy
+* **fbodyaccjerkstdy**
 
 - - -
-* fbodyaccjerkstdz
+* **fbodyaccjerkstdz**
 
 - - -
-* fbodygyrostdx
+* **fbodygyrostdx**
 
 - - -
-* fbodygyrostdy
+* **fbodygyrostdy**
 
 - - -
-* fbodygyrostdz
+* **fbodygyrostdz**
 
 - - -
-* fbodyaccmagstd
+* **fbodyaccmagstd**
 
 - - -
-* fbodybodyaccjerkmagstd
+* **fbodybodyaccjerkmagstd**
 
 - - -
-* fbodybodygyromagstd
+* **fbodybodygyromagstd**
 
 - - -
-* fbodybodygyrojerkmagstd
+* **fbodybodygyrojerkmagstd**
