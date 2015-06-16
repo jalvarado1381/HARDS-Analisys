@@ -50,7 +50,7 @@ rm(varNames)
 
 # 5.- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-cat("5.- Creating the new Data Set.\n")
+cat("5.- Creating the new Data Set and and taking it to a file.\n")
 hardsListSubjects <- list()
 hardsListActivities <- list()
 
