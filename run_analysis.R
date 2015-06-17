@@ -25,7 +25,7 @@ names(hards) <- c("Subject", "Activities", featuresVar$V2)
 # 2.- Extracts only the measurements on the mean and standard deviation for each measurement.
 
 cat("2.- Extracting the measurements on the mean and standard deviation for each measurement.\n")
-meanstdRows <-c(grep("mean()",names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
+meanstdRows <-c(grep("mean()", names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
 hards<-hards[c(1,2,meanstdRows)]
 
 rm(meanstdRows,xtrain2,xtest2,featuresVar, trainActivities,
@@ -45,7 +45,7 @@ varNames <-gsub("-", "", varNames)
 varNames <-sub("\\(", "", varNames)
 varNames <-sub("\\)", "", varNames)
 
-names(hards) <- c("subjectid", "activityname", varNames)
+names(hards) <- c("subjectid", "activityname", paste(varNames, rep("Avg",66), sep=""))
 rm(varNames)
 
 # 5.- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
