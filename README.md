@@ -11,7 +11,7 @@ The files mentioned above are contained in a directory called "UCI HAR Dataset" 
 
 ![CI HAR Dataset directory](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure.png "UCI HAR Dataset directory")
 
-As you can see at the image it is compound by two directories called **test** and **train**, containing the data obtained in experiment, the README.txt (General information about experiment and the data ) file and the files activity_labels.txt, features_info.txt and features.txt (all together made up the Codes Book).
+As you can see at the image it is compound by two directories called **test** and **train**, containing the data obtained in experiment, the README.txt (general information about experiment and the data )  and the files activity_labels.txt, features_info.txt and features.txt (all together made up the Codes Book).
 
 Our work consist in merge the files X_test.txt and X_train.txt located in the directories test and train respectively to get a data set from witch I have to generate another new data set with the [average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean) of each variable for each activity and each subject.
 
@@ -41,7 +41,7 @@ Our work consist in merge the files X_test.txt and X_train.txt located in the di
   
 3.- Copy the directory "UCI HAR Dataset" to the repository directory HARDS-Analysis
 
-4.- Once the directory "UCI HAR Dataset" is copied in HARDS-Analysis directory execute the following in your R console or R Studio:
+4.- Once the directory "UCI HAR Dataset" is copied into HARDS-Analysis directory execute the following in your R console or R Studio:
 
     source("run_analysis.R")
 
