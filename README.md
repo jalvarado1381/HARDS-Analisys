@@ -13,6 +13,15 @@ https://en.wikipedia.org/wiki/Average#Arithmetic_mean
 
 ##Script Explanation
 
+1.- Merging  the training and the test sets.
+
+2.- Extracting the measurements on the mean and standard deviation for each measurement.
+
+3.- Translating numbers to descritive names, for activities.
+
+4.- Working on variable names.
+
+5.- Creating the new Data Set and and taking it to a file.
 
 ##How to execute the script
 
