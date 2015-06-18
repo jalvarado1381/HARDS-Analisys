@@ -1,15 +1,14 @@
 HARDS Analysis
 =====================
 
-##Resume
-Given a Human Activity Recognition Data Set we'll get a new tidy data set.
-
 ## Problem and Data Set Analysis
-Given a set of files that store data from a survey 
+I have a set of files that store data generated from a experiment, where  a group of 30 people performed a serie of activities(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone with embedded accelerometer and gyroscope. The goal of this experiment is to study the [Human Activity Recognition] (https://en.wikipedia.org/wiki/Activity_recognition) since today it is easier and chipper  to survey data about it with the used of smartphones.
+With the help of this smartphone was possible to get spatial, acceleration, velocity and angular values for the 3-axial, for each activity performed by people. 
+Given the set of files mention above  a Human Activity Recognition Data Set we'll get a new tidy data set.
 
-https://en.wikipedia.org/wiki/Arithmetic_mean
+[Arithmetic_mean](https://en.wikipedia.org/wiki/Arithmetic_mean)
 
-https://en.wikipedia.org/wiki/Average#Arithmetic_mean
+[Average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean)
 
 ##Script Explanation
 
