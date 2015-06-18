@@ -11,13 +11,9 @@ The files mentioned above are contained in a directory called "UCI HAR Dataset" 
 
 ![CI HAR Dataset directory](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure.png "UCI HAR Dataset directory")
 
-As you can see at the image it is compound by two directories called **test** and **train**, containing the data obtained in experiment, the README.txt (General information about experiment and the data ) file and the files activity_labels.txt, features_info.txt and features.txt (Code Book).
+As you can see at the image it is compound by two directories called **test** and **train**, containing the data obtained in experiment, the README.txt (General information about experiment and the data ) file and the files activity_labels.txt, features_info.txt and features.txt (all together made up the Codes Book).
 
-Human Activity Recognition Data Set we'll get a new tidy data set.
-
-[Arithmetic_mean](https://en.wikipedia.org/wiki/Arithmetic_mean)
-
-[Average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean)
+Our work consist in merge the files X_test.txt and X_train.txt located in the directories test and train respectively to get a data set from witch I have to generate another new data set with the [average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean) of each variable for each activity and each subject.
 
 ##Script Explanation
 
@@ -32,6 +28,23 @@ Human Activity Recognition Data Set we'll get a new tidy data set.
 5.- Creating the new Data Set and and taking it to a file.
 
 ##How to execute the script
+
+1.- Clone the repository HARDS-Analysis from github
+
+    git clone https://github.com/jalvarado1381/HARDS-Analysis.git
+  
+2.- Open the R console  or R Studio and setup the directory HARDS-Analysis as your working directory
+  
+    Example:
+  
+    setwd("PATH_WHERE_YOU_HAVE_THE_REPOSITORY/HARDS-Analysis")
+  
+3.- Copy the directory "UCI HAR Dataset" to the repository directory HARDS-Analysis
+
+4.- Once th directory "UCI HAR Dataset" is copied in HARDS-Analysis execute the following:
+
+    source("run_analysis.R")
+
 
 ##Data set Source
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
