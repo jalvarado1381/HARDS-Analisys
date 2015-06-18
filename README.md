@@ -6,7 +6,7 @@ I have a set of files that store data generated from a experiment, where  a grou
 With the help of this smartphone was possible to get spatial, acceleration, velocity and angular values for the 3-axial, for each activity performed by people. 
 The files mention above are contained in a directory called "UCI HAR Dataset" that is structured as follow: 
 
-
+![CI HAR Dataset directory](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure.png "UCI HAR Dataset directory")
 
 compound by two directories called test and train that contain 
 
