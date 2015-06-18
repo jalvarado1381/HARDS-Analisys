@@ -41,10 +41,9 @@ Our work consist in merge the files X_test.txt and X_train.txt located in the di
   
 3.- Copy the directory "UCI HAR Dataset" to the repository directory HARDS-Analysis
 
-4.- Once th directory "UCI HAR Dataset" is copied in HARDS-Analysis execute the following:
+4.- Once the directory "UCI HAR Dataset" is copied in HARDS-Analysis directory execute the following in your R console or R Studio:
 
     source("run_analysis.R")
-
 
 ##Data set Source
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
