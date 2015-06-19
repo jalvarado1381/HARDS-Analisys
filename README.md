@@ -17,15 +17,18 @@ Our work consist in merge the files X_test.txt and X_train.txt located in the di
 
 ##Script Explanation
 
-For the development of this script I was focused on only using the base library of R, so you will find I only used basic functions for completing the requirements.
+For the development of this script I was focused on only using the base library of R, so you will find I only the used of base functions an tools for completing the requirements.
 
-The script is divided into 5 parts 
+The script is divided into 5 parts. You will be able to identify each part for a sharp rectangles I made around them.
 
 1.- Merging  the training and the test sets.
 
-        In this part I made used of read.table, cbind and rbind to read a merge the files and data frames.
+In this part I made used of read.table, cbind and rbind to read and merge the files and data frames.
+Here I read most of the files I am going to use througth the script and built the main data frame, I named hards, from which I'll get all the data to reach  the tidy data set required. 
 
 2.- Extracting the measurements on the mean and standard deviation for each measurement.
+
+Using the grep function I could obtain all variables names associated with the strings mean() and std()
 
 3.- Translating numbers to descritive names, for activities.
 
