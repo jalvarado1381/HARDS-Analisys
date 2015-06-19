@@ -17,7 +17,13 @@ Our work consist in merge the files X_test.txt and X_train.txt located in the di
 
 ##Script Explanation
 
+For the development of this script I was focused on only using the base library of R, so you will find I only used basic functions for completing the requirements.
+
+The script is divided into 5 parts 
+
 1.- Merging  the training and the test sets.
+
+        In this part I made used of read.table, cbind and rbind to read a merge the files and data frames.
 
 2.- Extracting the measurements on the mean and standard deviation for each measurement.
 
@@ -25,9 +31,9 @@ Our work consist in merge the files X_test.txt and X_train.txt located in the di
 
 4.- Working on variable names.
 
-5.- Creating the new Data Set and taking it to a file.
+5.- Calculating the new variables and creating the new Data Set and taking it to a file.
 
-##How to execute the script
+##How to execute the script run_analysis.R
 
 1.- Clone the repository HARDS-Analysis from github
 
