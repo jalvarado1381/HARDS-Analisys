@@ -30,10 +30,10 @@ names(hards) <- c("Subject", "Activities", featuresVar$V2)
 
 cat("2.- Extracting the measurements on the mean and standard deviation for each measurement.\n")
 
-meanstdRows <-c(grep("mean()", names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
-hards<-hards[c(1,2,meanstdRows)]
+meanstdVariables <-c(grep("mean()", names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
+hards<-hards[c(1,2,meanstdVariables)]
 
-rm(meanstdRows,featuresVar, trainActivities,
+rm(meanstdVariables,featuresVar, trainActivities,
    trainSubjects, testActivities,testSubjects, xtrain, xtest) ## removing objects
 
 ##############################################################################
