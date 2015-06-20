@@ -10,19 +10,21 @@ The files mentioned above are contained in an directory called *"UCI HAR Dataset
 
 ![UCI HAR Dataset directory image](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure2.png "UCI HAR Dataset directory")
 
-**Above Image generated in GNU/Linux with the command ```tree - version 1.6.0```**
+**Above image was generated in GNU/Linux using the command ```tree - version 1.6.0```**
 
-As you can see at the image it is compound by two directories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the Code Book).
+As you can see at the image *"UCI HAR Dataset"* is compound by two subdirectories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the Code Book).
 
 Our work consist in merge the files X_test.txt and X_train.txt located in the directories **test** and **train** respectively to build a data set from which we're going to take the means() and std() variables to create newly another data set with only those variables, once we have it, it is necessary to generate another new data set with the [average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean) of each variable for each activity and each subject.
 
 ##Variables
 
-The variables exposed here, are based on those ones contained in the codes book given  in the files features_info.txt and features.txt from the directory *"UCI HAR Dataset"*. By applying the functions grep function I reduced the quantity of variables from 561 to 66 variables and after adding the subjectid and activityname and activityid, the quantity of variables to work with was placed in 68.
+The variables exposed here, are based on those ones contained in the codebook given  in the files features_info.txt and features.txt from the directory *"UCI HAR Dataset"*. 
+
+By applying the functions grep function I reduced the quantity of variables from 561 to 66, that are the total of variables with the pattern strings "mean()" and "std()", and after adding the subjectid and activityname, the quantity of variables to work with was placed in 68.
 
 The way as they were obtained was applying the  `mean()` function on the mean() and std() variables on original data set.
 
-####Variables
+####List of variables
 
 - - - 
 [1] **subjectid**
@@ -48,7 +50,7 @@ It represent each of the six activities performed by the subjects.
 
 	Class: Factor
 
-	Value Range: 6 levels
+	Values range: 6 levels
 
         	"WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
         	1              2                     3               4           5          6
@@ -56,7 +58,8 @@ It represent each of the six activities performed by the subjects.
 [3] **tbodyaccmeanxAvg**
 
 	Class: numeric 
-
+	Min: 0.2216       Max: 0.3015
+	
 - - -  
 [4] **tbodyaccmeanyAvg**
 
