@@ -21,20 +21,20 @@ For the development of this script I was focused on only using the base library 
 
 The script is divided into 5 parts. You will be able to identify each part for a sharp rectangles I made around them.
 
-1.- Merging  the training and the test sets.
+#####1.- Merging  the training and the test sets.
 
 In this part I made used of read.table, cbind and rbind to read and merge the files and data frames.
 Here I read most of the files I am going to use througth the script and built the main data frame, I named hards, from which I'll get all the data to reach  the tidy data set required. 
 
-2.- Extracting the measurements on the mean and standard deviation for each measurement.
+#####2.- Extracting the measurements on the mean and standard deviation for each measurement.
 
 Using the grep function I could obtain all mean and std variables names associated with the pattern strings "mean()" and "std()"
 
         meanstdVariables <- c(grep("mean()", names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
 
-3.- Translating numbers to descritive names, for activities.
+#####3.- Translating numbers to descritive names, for activities.
 
-Here it is necessary to match the activities names with corresponding number in the file activity_labels.txt in the way it could fix perfectly in the data set.
+Here, it is necessary to match the activities names with corresponding number in the file activity_labels.txt in the way it could fix perfectly in the data set.
         
         activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt", stringsAsFactors=FALSE)
         
@@ -42,11 +42,11 @@ Here it is necessary to match the activities names with corresponding number in 
                 hards$Activities[hards$Activities==activity] <- activityLabels[activity,2]
         }
 
-4.- Working on variable names.
+#####4.- Working on variable names.
 
 I applied the sub, gsub, tolower and paste functions to build the names of the new variables.
 
-5.- Calculating the new variables and creating the new Data Set and taking it to a file.
+#####5.- Calculating the new variables and creating the new Data Set and taking it to a file.
 
 ##How to execute the script run_analysis.R
 
