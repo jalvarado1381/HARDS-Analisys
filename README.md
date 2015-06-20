@@ -35,7 +35,7 @@ Using the grep and names functions I could obtain all mean and std variables ass
 #####3.- Translating numbers to descritive names, for activities.
 
 Here, it is necessary to match the activities names with corresponding number in the file activity_labels.txt in the way it could fix perfectly in the data set.
-        
+
         activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt", stringsAsFactors=FALSE)
         
         for (activity in activityLabels[[1]]){
@@ -48,14 +48,16 @@ I applied the sub, gsub, tolower and paste functions to build the names of the n
 
 As you can see I had to escape parenthesis characters for being able to eliminate it and having cleaned variables.
 
-#####5.- Calculating the new variables and creating the new Data Set and taking it to a file.
+#####5.- Calculating the new variables and creating the new Data Set and storing it to a file.
+
+At last 
 
 ##How to execute the script run_analysis.R
 
 1.- Clone the repository HARDS-Analysis from github
 
         git clone https://github.com/jalvarado1381/HARDS-Analysis.git
-    
+
 2.- Download the directory *"UCI HAR Dataset"* from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), uncompress and copy it to the directory HARDS-Analysis, created by the cloned proccess in step 1.
   
 3.- Open the R console or R Studio and setup the directory HARDS-Analysis as your working directory.
