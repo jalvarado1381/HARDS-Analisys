@@ -70,4 +70,4 @@ I applied the sub, gsub, tolower and paste functions to build the names of the n
         source("run_analysis.R")
 
 ##Data set Source
-If you want more information about the original data set you can visit http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+If you want more information about the original data set you can go [here]( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
