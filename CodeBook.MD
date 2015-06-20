@@ -37,7 +37,7 @@ Class: Integer
 
 Value Range: 1 - 30
 
-      The number 1 represent the first person, the number 2 the second,  and so on...
+      The number 1 represent the first person, the number 2 the second one,  and so on...
 
 - - -
 [2] **activityname**
@@ -378,4 +378,4 @@ Value Range: 6 levels
 - - -  
 [68] **fbodybodygyrojerkmagstdAvg**
 
-Class: numeric
+	Class: numeric
