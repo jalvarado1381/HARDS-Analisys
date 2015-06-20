@@ -48,9 +48,9 @@ for (activity in activityLabels[[1]]){
 
 rm(activity) ## removing objects
 
-##########################################################################
-# 4.- Appropriately labels the data set with descriptive variable names. #
-##########################################################################
+#############################################################################################
+# 4.- Working on variable names to appropriately labels the data set with descriptive ones. #
+#############################################################################################
 
 cat("4.- Working on variable names.\n")
 varNames<-tolower(names(hards)[3:68])
@@ -68,9 +68,11 @@ rm(varNames) ## removing objects
 
 cat("5.- Creating the new Data Set and and taking it to a file.\n")
 
+#pre-creating List 
 hardsListSubjects <- list()
 hardsListActivities <- list()
 
+#Calculating and collecting average of each variable
 for(subjectId in 1:30){  
     for(activity in 1:6){
       tempdf <-hards[hards$subjectid==subjectId & hards$activityname==activityLabels[activity,2],]      
@@ -81,17 +83,18 @@ for(subjectId in 1:30){
 
 rm(hards, subjectId, activity, tempdf, hardsListActivities )
 
-temphards <- data.frame()
+finalhards <- data.frame()
 
+#Appending the new values in an temporal data frame
 for(subjectId in 1:30){  
   for(activity in 1:6){
-    temphards <- rbind.data.frame(temphards,hardsListSubjects[[subjectId]][[activity]])  
+    finalhards <- rbind.data.frame(finalhards,hardsListSubjects[[subjectId]][[activity]])  
   }  
 }
 
 idfields <-data.frame(subjectid=sort(rep(1:30,6)), activityname=activityLabels$V2)
-finalhards<-cbind(idfields, temphards)
+finalhards<-cbind(idfields, finalhards)
 
-rm(subjectId, activity, activityLabels, hardsListSubjects, temphards, idfields ) ## removing objects
+rm(subjectId, activity, activityLabels, hardsListSubjects,  idfields ) ## removing objects
 
 write.table(finalhards, "finalhards.txt", sep=",", row.names=FALSE)
