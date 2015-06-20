@@ -33,23 +33,23 @@ The number 1 represent the first person, the number 2 the second,  and so on...
 
 At the final Data Set you're going to observe each value is repeated 6 times along with the variable activityname.
 
-Class: Integer
+	Class: Integer
 
-Value Range: 1 - 30
+	Value Range: 1 - 30
 
-      The number 1 represent the first person, the number 2 the second one,  and so on...
+      		The number 1 represent the first person, the number 2 the second one,  and so on...
 
 - - -
 [2] **activityname**
 
 It represent each of the six activities performed by the subjects.
 
-Class: Factor
+	Class: Factor
 
-Value Range: 6 levels
+	Value Range: 6 levels
 
-        "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
-            1              2                     3               4           5          6
+        	"WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
+            	    1              2                     3               4           5          6
 - - -
 [3] **tbodyaccmeanxAvg**
 
