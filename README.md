@@ -7,7 +7,7 @@ This exercise, that I have called HARDS Analysis (Human Activity Recognition Dat
 
 With the help of this smartphone was possible to get spatial, acceleration, velocity and angular values for the 3-axial, for the six activity performed by the people.
 
-The files mentioned above are contained in a directory called *"UCI HAR Dataset"* and can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. This directory is structured as follow: 
+The files mentioned above are contained in a directory called *"UCI HAR Dataset"* and can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). This directory is structured as follow: 
 
 ![UCI HAR Dataset directory image](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure2.png "UCI HAR Dataset directory")
 
@@ -72,9 +72,9 @@ At last, ```finalhards``` was merged with the data frame ```idfields```, that ha
   
     Example:
     
-        1.-  ```$ R ## Executing R in your GNU/Linux, Mac or Windows command line```
+        `$ R ## Executing R in your GNU/Linux, Mac or Windows command line`
    
-        2.-  ```> setwd("PATH_WHERE_YOU_HAVE_THE_REPOSITORY/HARDS-Analysis") ## Executing setwd() in R prompt```
+        `> setwd("PATH_WHERE_YOU_HAVE_THE_REPOSITORY/HARDS-Analysis") ## Executing setwd() in R prompt`
   
 
 4.- Once you set HARDS-Analysis as your working directory execute: 
