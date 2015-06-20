@@ -8,7 +8,7 @@ With the help of this smartphone was possible to get spatial, acceleration, velo
 
 The files mentioned above are contained in a directory called *"UCI HAR Dataset"* and can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. This directory is structured as follow: 
 
-![UCI HAR Dataset directory image](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure.png "UCI HAR Dataset directory")
+![UCI HAR Dataset directory image](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure2.png "UCI HAR Dataset directory")
 
 As you can see at the image it is compound by two directories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the Code Book).
 
@@ -16,7 +16,7 @@ Our work consist in merge the files X_test.txt and X_train.txt located in the di
 
 ##Codes Book
 
-The variables are exposed here are based on those ones contained in the codes book given  in the files features_info.txt and features.txt from the directory *"UCI HAR Dataset"*. By applying the function the grep function I reduced the quantity of variables from 561 to 66 variables and after adding the subjectid and activityname and activityid, the quantity of variables to work with was placed in 68.
+The variables exposed here, are based on those ones contained in the codes book given  in the files features_info.txt and features.txt from the directory *"UCI HAR Dataset"*. By applying the functions grep function I reduced the quantity of variables from 561 to 66 variables and after adding the subjectid and activityname and activityid, the quantity of variables to work with was placed in 68.
 
 The way as they were obtained was applying the  `mean()` function on the mean() and std() variables on original data set.
 
@@ -51,201 +51,332 @@ Value Range: 6 levels
 
         "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
             1              2                     3               4           5          6
-
 - - -
-* **tbodyaccmeanxAvg**
+* **tbodyaccmeanxAvg** 
 
-- - - 
-* **tbodyaccmeanyAvg**
+Class: numeric 
 
-- - - 
-* **tbodyaccmeanzAvg**
+- - -  
+* **tbodyaccmeanyAvg** 
 
-- - - 
-* **tgravityaccmeanxAvg**
+Class: numeric 
 
-- - - 
-* **tgravityaccmeanyAvg**
+- - -  
+* **tbodyaccmeanzAvg** 
 
-- - - 
-* **tgravityaccmeanzAvg**
+Class: numeric 
 
-- - - 
-* **tbodyaccjerkmeanxAvg**
+- - -  
+* **tgravityaccmeanxAvg** 
 
-- - - 
-* **tbodyaccjerkmeanyAvg**
+Class: numeric 
 
-- - - 
-* **tbodyaccjerkmeanzAvg**
+- - -  
+* **tgravityaccmeanyAvg** 
 
-- - - 
-* **tbodygyromeanxAvg**
+Class: numeric 
 
-- - - 
-* **tbodygyromeanyAvg**
+- - -  
+* **tgravityaccmeanzAvg** 
 
-- - - 
-* **tbodygyromeanzAvg**
+Class: numeric 
 
-- - - 
-* **tbodygyrojerkmeanxAvg**
+- - -  
+* **tbodyaccjerkmeanxAvg** 
 
-- - - 
-* **tbodygyrojerkmeanyAvg**
+Class: numeric 
 
-- - - 
-* **tbodygyrojerkmeanzAvg**
+- - -  
+* **tbodyaccjerkmeanyAvg** 
 
-- - - 
-* **tbodyaccmagmeanAvg**
+Class: numeric 
 
-- - - 
-* **tgravityaccmagmeanAvg**
+- - -  
+* **tbodyaccjerkmeanzAvg** 
 
-- - - 
-* **tbodyaccjerkmagmeanAvg**
+Class: numeric 
 
-- - - 
-* **tbodygyromagmeanAvg**
+- - -  
+* **tbodygyromeanxAvg** 
 
-- - - 
-* **tbodygyrojerkmagmeanAvg**
+Class: numeric 
 
-- - - 
-* **fbodyaccmeanxAvg**
+- - -  
+* **tbodygyromeanyAvg** 
 
-- - - 
-* **fbodyaccmeanyAvg**
+Class: numeric 
 
-- - - 
-* **fbodyaccmeanzAvg**
+- - -  
+* **tbodygyromeanzAvg** 
 
-- - - 
-* **fbodyaccjerkmeanxAvg**
+Class: numeric 
 
-- - - 
-* **fbodyaccjerkmeanyAvg**
+- - -  
+* **tbodygyrojerkmeanxAvg** 
 
-- - - 
-* **fbodyaccjerkmeanzAvg**
+Class: numeric 
 
-- - - 
-* **fbodygyromeanxAvg**
+- - -  
+* **tbodygyrojerkmeanyAvg** 
 
-- - - 
-* **fbodygyromeanyAvg**
+Class: numeric 
 
-- - - 
-* **fbodygyromeanzAvg**
+- - -  
+* **tbodygyrojerkmeanzAvg** 
 
-- - - 
-* **fbodyaccmagmeanAvg**
+Class: numeric 
 
-- - - 
-* **fbodybodyaccjerkmagmeanAvg**
+- - -  
+* **tbodyaccmagmeanAvg** 
 
-- - - 
-* **fbodybodygyromagmeanAvg**
+Class: numeric 
 
-- - - 
-* **fbodybodygyrojerkmagmeanAvg**
+- - -  
+* **tgravityaccmagmeanAvg** 
 
-- - - 
-* **tbodyaccstdxAvg**
+Class: numeric 
 
-- - - 
-* **tbodyaccstdyAvg**
+- - -  
+* **tbodyaccjerkmagmeanAvg** 
 
-- - - 
-* **tbodyaccstdzAvg**
+Class: numeric 
 
-- - - 
-* **tgravityaccstdxAvg**
+- - -  
+* **tbodygyromagmeanAvg** 
 
-- - - 
-* **tgravityaccstdyAvg**
+Class: numeric 
 
-- - - 
-* **tgravityaccstdzAvg**
+- - -  
+* **tbodygyrojerkmagmeanAvg** 
 
-- - - 
-* **tbodyaccjerkstdxAvg**
+Class: numeric 
 
-- - - 
-* **tbodyaccjerkstdyAvg**
+- - -  
+* **fbodyaccmeanxAvg** 
 
-- - - 
-* **tbodyaccjerkstdzAvg**
+Class: numeric 
 
-- - - 
-* **tbodygyrostdxAvg**
+- - -  
+* **fbodyaccmeanyAvg** 
 
-- - - 
-* **tbodygyrostdyAvg**
+Class: numeric 
 
-- - - 
-* **tbodygyrostdzAvg**
+- - -  
+* **fbodyaccmeanzAvg** 
 
-- - - 
-* **tbodygyrojerkstdxAvg**
+Class: numeric 
 
-- - - 
-* **tbodygyrojerkstdyAvg**
+- - -  
+* **fbodyaccjerkmeanxAvg** 
 
-- - - 
-* **tbodygyrojerkstdzAvg**
+Class: numeric 
 
-- - - 
-* **tbodyaccmagstdAvg**
+- - -  
+* **fbodyaccjerkmeanyAvg** 
 
-- - - 
-* **tgravityaccmagstdAvg**
+Class: numeric 
 
-- - - 
-* **tbodyaccjerkmagstdAvg**
+- - -  
+* **fbodyaccjerkmeanzAvg** 
 
-- - - 
-* **tbodygyromagstdAvg**
+Class: numeric 
 
-- - - 
-* **tbodygyrojerkmagstdAvg**
+- - -  
+* **fbodygyromeanxAvg** 
 
-- - - 
-* **fbodyaccstdxAvg**
+Class: numeric 
 
-- - - 
-* **fbodyaccstdyAvg**
+- - -  
+* **fbodygyromeanyAvg** 
 
-- - - 
-* **fbodyaccstdzAvg**
+Class: numeric 
 
-- - - 
-* **fbodyaccjerkstdxAvg**
+- - -  
+* **fbodygyromeanzAvg** 
 
-- - - 
-* **fbodyaccjerkstdyAvg**
+Class: numeric 
 
-- - - 
-* **fbodyaccjerkstdzAvg**
+- - -  
+* **fbodyaccmagmeanAvg** 
 
-- - - 
-* **fbodygyrostdxAvg**
+Class: numeric 
 
-- - - 
-* **fbodygyrostdyAvg**
+- - -  
+* **fbodybodyaccjerkmagmeanAvg** 
 
-- - - 
-* **fbodygyrostdzAvg**
+Class: numeric 
 
-- - - 
-* **fbodyaccmagstdAvg**
+- - -  
+* **fbodybodygyromagmeanAvg** 
 
-- - - 
-* **fbodybodyaccjerkmagstdAvg**
+Class: numeric 
 
-- - - 
-* **fbodybodygyromagstdAvg**
+- - -  
+* **fbodybodygyrojerkmagmeanAvg** 
 
-- - - 
+Class: numeric 
+
+- - -  
+* **tbodyaccstdxAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodyaccstdyAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodyaccstdzAvg** 
+
+Class: numeric 
+
+- - -  
+* **tgravityaccstdxAvg** 
+
+Class: numeric 
+
+- - -  
+* **tgravityaccstdyAvg** 
+
+Class: numeric 
+
+- - -  
+* **tgravityaccstdzAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodyaccjerkstdxAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodyaccjerkstdyAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodyaccjerkstdzAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodygyrostdxAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodygyrostdyAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodygyrostdzAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodygyrojerkstdxAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodygyrojerkstdyAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodygyrojerkstdzAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodyaccmagstdAvg** 
+
+Class: numeric 
+
+- - -  
+* **tgravityaccmagstdAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodyaccjerkmagstdAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodygyromagstdAvg** 
+
+Class: numeric 
+
+- - -  
+* **tbodygyrojerkmagstdAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodyaccstdxAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodyaccstdyAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodyaccstdzAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodyaccjerkstdxAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodyaccjerkstdyAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodyaccjerkstdzAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodygyrostdxAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodygyrostdyAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodygyrostdzAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodyaccmagstdAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodybodyaccjerkmagstdAvg** 
+
+Class: numeric 
+
+- - -  
+* **fbodybodygyromagstdAvg** 
+
+Class: numeric 
+
+- - -  
 * **fbodybodygyrojerkmagstdAvg**
+
+Class: numeric
