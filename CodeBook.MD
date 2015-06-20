@@ -51,331 +51,331 @@ Value Range: 6 levels
         "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
             1              2                     3               4           5          6
 - - -
-**[3] tbodyaccmeanxAvg** 
+[3] **tbodyaccmeanxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[4] tbodyaccmeanyAvg** 
+[4] **tbodyaccmeanyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[5] tbodyaccmeanzAvg** 
+[5] **tbodyaccmeanzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[6] tgravityaccmeanxAvg** 
+[6] **tgravityaccmeanxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[7] tgravityaccmeanyAvg** 
+[7] **tgravityaccmeanyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[8] tgravityaccmeanzAvg** 
+[8] **tgravityaccmeanzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[9] tbodyaccjerkmeanxAvg** 
+[9] **tbodyaccjerkmeanxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[10] tbodyaccjerkmeanyAvg** 
+[10] **tbodyaccjerkmeanyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[11] tbodyaccjerkmeanzAvg** 
+[11] **tbodyaccjerkmeanzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[12] tbodygyromeanxAvg** 
+[12] **tbodygyromeanxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[13] tbodygyromeanyAvg** 
+[13] **tbodygyromeanyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[14] tbodygyromeanzAvg** 
+[14] **tbodygyromeanzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[15] tbodygyrojerkmeanxAvg** 
+[15] **tbodygyrojerkmeanxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[16] tbodygyrojerkmeanyAvg** 
+[16] **tbodygyrojerkmeanyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[17] tbodygyrojerkmeanzAvg** 
+[17] **tbodygyrojerkmeanzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[18] tbodyaccmagmeanAvg** 
+[18] **tbodyaccmagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[19] tgravityaccmagmeanAvg** 
+[19] **tgravityaccmagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[20] tbodyaccjerkmagmeanAvg** 
+[20] **tbodyaccjerkmagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[21] tbodygyromagmeanAvg** 
+[21] **tbodygyromagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[22] tbodygyrojerkmagmeanAvg** 
+[22] **tbodygyrojerkmagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[23] fbodyaccmeanxAvg** 
+[23] **fbodyaccmeanxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[24] fbodyaccmeanyAvg** 
+[24] **fbodyaccmeanyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[25] fbodyaccmeanzAvg** 
+[25] **fbodyaccmeanzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[26] fbodyaccjerkmeanxAvg** 
+[26] **fbodyaccjerkmeanxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[27] fbodyaccjerkmeanyAvg** 
+[27] **fbodyaccjerkmeanyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[28] fbodyaccjerkmeanzAvg** 
+[28] **fbodyaccjerkmeanzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[29] fbodygyromeanxAvg** 
+[29] **fbodygyromeanxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[30] fbodygyromeanyAvg** 
+[30] **fbodygyromeanyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[31] fbodygyromeanzAvg** 
+[31] **fbodygyromeanzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[32] fbodyaccmagmeanAvg** 
+[32] **fbodyaccmagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[33] fbodybodyaccjerkmagmeanAvg** 
+[33] **fbodybodyaccjerkmagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[34] fbodybodygyromagmeanAvg** 
+[34] **fbodybodygyromagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[35] fbodybodygyrojerkmagmeanAvg** 
+[35] **fbodybodygyrojerkmagmeanAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[36] tbodyaccstdxAvg** 
+[36] **tbodyaccstdxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[37] tbodyaccstdyAvg** 
+[37] **tbodyaccstdyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[38] tbodyaccstdzAvg** 
+[38] **tbodyaccstdzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[39] tgravityaccstdxAvg** 
+[39] **tgravityaccstdxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[40] tgravityaccstdyAvg** 
+[40] **tgravityaccstdyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[41] tgravityaccstdzAvg** 
+[41] **tgravityaccstdzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[42] tbodyaccjerkstdxAvg** 
+[42] **tbodyaccjerkstdxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[43] tbodyaccjerkstdyAvg** 
+[43] **tbodyaccjerkstdyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[44] tbodyaccjerkstdzAvg** 
+[44] **tbodyaccjerkstdzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[45] tbodygyrostdxAvg** 
+[45] **tbodygyrostdxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[46] tbodygyrostdyAvg** 
+[46] **tbodygyrostdyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[47] tbodygyrostdzAvg** 
+[47] **tbodygyrostdzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[48] tbodygyrojerkstdxAvg** 
+[48] **tbodygyrojerkstdxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[49] tbodygyrojerkstdyAvg** 
+[49] **tbodygyrojerkstdyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[50] tbodygyrojerkstdzAvg** 
+[50] **tbodygyrojerkstdzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[51] tbodyaccmagstdAvg** 
+[51] **tbodyaccmagstdAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[52] tgravityaccmagstdAvg** 
+[52] **tgravityaccmagstdAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[53] tbodyaccjerkmagstdAvg** 
+[53] **tbodyaccjerkmagstdAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[54] tbodygyromagstdAvg** 
+[54] **tbodygyromagstdAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[55] tbodygyrojerkmagstdAvg** 
+[55] **tbodygyrojerkmagstdAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[56] fbodyaccstdxAvg** 
+[56] **fbodyaccstdxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[57] fbodyaccstdyAvg** 
+[57] **fbodyaccstdyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[58] fbodyaccstdzAvg** 
+[58] **fbodyaccstdzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[59] fbodyaccjerkstdxAvg** 
+[59] **fbodyaccjerkstdxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[60] fbodyaccjerkstdyAvg** 
+[60] **fbodyaccjerkstdyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[61] fbodyaccjerkstdzAvg** 
+[61] **fbodyaccjerkstdzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[62] fbodygyrostdxAvg** 
+[62] **fbodygyrostdxAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[63] fbodygyrostdyAvg** 
+[63] **fbodygyrostdyAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[64] fbodygyrostdzAvg** 
+[64] **fbodygyrostdzAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[65] fbodyaccmagstdAvg** 
+[65] **fbodyaccmagstdAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[66] fbodybodyaccjerkmagstdAvg** 
+[66] **fbodybodyaccjerkmagstdAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[67] fbodybodygyromagstdAvg** 
+[67] **fbodybodygyromagstdAvg**
 
-Class: numeric 
+	Class: numeric 
 
 - - -  
- **[68] fbodybodygyrojerkmagstdAvg**
+[68] **fbodybodygyrojerkmagstdAvg**
 
 Class: numeric
