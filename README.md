@@ -28,11 +28,23 @@ Here I read most of the files I am going to use througth the script and built th
 
 2.- Extracting the measurements on the mean and standard deviation for each measurement.
 
-Using the grep function I could obtain all variables names associated with the strings mean() and std()
+Using the grep function I could obtain all mean and std variables names associated with the pattern strings "mean()" and "std()"
+
+        meanstdVariables <- c(grep("mean()", names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
 
 3.- Translating numbers to descritive names, for activities.
 
+Here it is necessary to match the activities names with corresponding number in the file activity_labels.txt in the way it could fix perfectly in the data set.
+        
+        activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt", stringsAsFactors=FALSE)
+        
+        for (activity in activityLabels[[1]]){
+                hards$Activities[hards$Activities==activity] <- activityLabels[activity,2]
+        }
+
 4.- Working on variable names.
+
+I applied the sub, gsub, tolower and paste functions to build the names of the new variables.
 
 5.- Calculating the new variables and creating the new Data Set and taking it to a file.
 
