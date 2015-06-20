@@ -23,7 +23,7 @@ The way as they were obtained was applying the  `mean()` function on the mean() 
 ####Variables
 
 - - - 
-* **subjectid**
+[1] **subjectid**
 
 The Subject ID  used to identify the subject under analysis and its respective observations. 
 
@@ -40,7 +40,7 @@ Value Range: 1 - 30
       The number 1 represent the first person, the number 2 the second,  and so on...
 
 - - -
-* **activityname**
+[2] **activityname**
 
 It represent each of the six activities performed by the subjects.
 
@@ -51,7 +51,7 @@ Value Range: 6 levels
         "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
             1              2                     3               4           5          6
 - - -
-[3] tbodyaccmeanxAvg** 
+**[3] tbodyaccmeanxAvg** 
 
 Class: numeric 
 
