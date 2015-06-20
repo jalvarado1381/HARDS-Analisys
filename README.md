@@ -73,7 +73,7 @@ At last, ```finalhards``` was merged with the data frame ```idfields```, that ha
     Example:
     
         ```
-        $ R ## Executing R in your GNU/Linux, Mac or Windows command line`
+        $ R ## Executing R in your GNU/Linux, Mac or Windows command line
         > setwd("PATH_WHERE_YOU_HAVE_THE_REPOSITORY/HARDS-Analysis") ## Executing setwd() in R prompt
         ```
   
