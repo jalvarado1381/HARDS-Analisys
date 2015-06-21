@@ -4,7 +4,7 @@ HARDS Analysis
 
 [Script Explanation](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/README.md#script-explanation)
 
-[How to execute the script run_analysis.R](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/README.md#How-to-execute-the-script-run-analysis.R)
+[How to execute the script run_analysis.R](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/README.md#how-to-execute-the-script-run_analysisr)
 
 ## Overview Explanation
 
