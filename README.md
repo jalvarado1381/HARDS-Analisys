@@ -13,15 +13,17 @@ The files mentioned above are contained in a directory called *"UCI HAR Dataset"
 
 **Image generated in GNU/Linux with the command ```tree - version 1.6.0```**
 
-As you can see at the image it is compound by two directories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the Code Book).
+As you can see at the image it is compound by two directories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the codebook).
 
 Our work consist in merge the files X_test.txt and X_train.txt located in the directories **test** and **train** respectively to build a data set from which we're going to take the means() and std() variables to create newly another data set with only those variables, once we have it, it is necessary to generate another new data set with the [average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean) of each variable for each activity and each subject.
 
 ##Script Explanation
 
-For the development of this script I was focused on only using the base library of R, so you will notice only appear basic functions and tools for completing the requirements.
+For the development of this script I was focused on only using the base library of R, so you will notice that only appear basic functions and tools for completing the requirement.
 
-The script is divided into 5 parts. You will be able to identify each part for a sharp rectangles I made around them.
+The R script is divided into 5 parts. For helping to identify them  I made a sharp rectangles around them. 
+
+Each of the parts are explained too in following lines:
 
 ##### 1.- Merging  the training and the test sets.
 
@@ -48,7 +50,7 @@ Here, it is necessary to match the activities names with corresponding number in
 
 I applied the sub, gsub, tolower and paste functions to build the names of the new variables. 
 
-As you can see I had to escape parenthesis characters for being able to eliminate it and having cleaned variables.
+As you can see I had to escape parenthesis characters for being able to eliminate it to clean the variables and create new ones.
 
 ##### 5.- Calculating the new variables and creating the new Data Set and storing it to a file.
 
@@ -58,7 +60,7 @@ Within the first for loop were calculated the new variables using ```mean()``` a
 
 Withing the second for loop were grouped all the observations collected in ```hardsListSubjects``` list and saved into a data frame(```finalhards```).
 
-At last, ```finalhards``` was merged with the data frame ```idfields```, that has the new arrangement of the ```subjectid``` and ```activityname``` variables, using the function ```cbind()```.
+At last, ```finalhards``` was merged with the data frame ```idfields```, that has the new arrangements of the ```subjectid``` and ```activityname``` variables, using the function ```cbind()```.
 
 ##How to execute the script run_analysis.R
 
@@ -78,6 +80,18 @@ At last, ```finalhards``` was merged with the data frame ```idfields```, that ha
 4.- Once you set HARDS-Analysis as your working directory execute: 
 
         source("run_analysis.R")
+
+Through the execution it is printing each of the part it is executing. So you have to see like this:
+
+        1.- Merging  the training and the test sets.
+        2.- Extracting the measurements on the mean and standard deviation for each measurement.
+        3.- Translating numbers to descritive names, for activities.
+        4.- Working on variable names.
+        5.- Creating the new Data Set and and taking it to a file.
+
+It indicate the execution was success and you have a new data.frame object created called `finalhards` and a new file in your working directory called `finalhards.txt`, where are stored a copy of the tidy data required.
+
+**NOTES**: For information about the variables in this data set please  refer to its [codebook](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD).
 
 ##Data set Source
 If you want more information about the original data set you can go [here]( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
