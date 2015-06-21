@@ -3,8 +3,7 @@
 [Overview Explanation](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#overview-explanation)
 
 [Variables](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#variables)
-
-> [List of variables](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#list-of-variables)
+  > [List of variables](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#list-of-variables)
 
 
 ## Overview Explanation
@@ -34,7 +33,7 @@ The way as they were obtained was applying the  `mean()` function on the mean() 
 
 The name of each variable has been numbered, according to its position in the data set, to ease the location.
 - - - 
-[1] **subjectid**
+######[1] **subjectid**
 
 Identify the subject under analysis and its respective observations. 
 
