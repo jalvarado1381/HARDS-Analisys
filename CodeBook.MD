@@ -24,13 +24,13 @@ Our work consist in merge the files X_test.txt and X_train.txt located in the di
 
 The variables exposed here, are based on those ones contained in the codebook given  in the files features_info.txt and features.txt from the directory [*"UCI HAR Dataset"*](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
-By applying the functions grep function I reduced the quantity of variables from 561 to 66, that are the total of variables with the pattern strings "mean()" and "std()", and after adding the subjectid and activityname, the quantity of variables to work with was placed in 68.
+By applying the function grep I reduced the quantity of variables from 561 to 66, that are the total of variables with the pattern strings "mean()" and "std()" in the original data set, and after adding the subjectid and activityname, the quantity of variables to work with was placed in 68.
 
 The way as they were obtained was applying the  `mean()` function on the mean() and std() variables on original data set, grouping the observations by subject and activities.
 
 ####List of variables:
 
-The name of each variable has been numbered, according to its position in the data set, to ease the location.
+The name of each variable has been numbered, according to its position in the data set, to ease the location of each one.
 - - - 
 ######[1] **subjectid**
 
