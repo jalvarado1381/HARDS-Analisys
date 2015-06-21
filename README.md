@@ -84,7 +84,7 @@ At last, ```finalhards``` was merged with the data frame ```idfields```, that ha
 
         source("run_analysis.R")
 
-Through the execution it is printing each of the part it is executing. So you have to see like this:
+Through the execution, it prints a line indicating each of the part it is executing. So you have to see something like this when it finish:
 
         1.- Merging  the training and the test sets.
         2.- Extracting the measurements on the mean and standard deviation for each measurement.
