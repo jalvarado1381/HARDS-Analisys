@@ -68,7 +68,7 @@ It represent each of the six activities performed by the subjects.
 	Min: -0.040514  Max: -0.001308  
 
 - - -  
- ######[5] **tbodyaccmeanzAvg**
+######[5] **tbodyaccmeanzAvg**
 
 	Class: numeric 
 	Min: -0.15251  Max: -0.07538  
@@ -230,223 +230,223 @@ It represent each of the six activities performed by the subjects.
 	Min: -0.9860  Max:  0.4924  
 
 - - -  
- [32] **fbodyaccmagmeanAvg**
+###### [32] **fbodyaccmagmeanAvg**
 
 	Class: numeric 
 	Min: -0.9868  Max:  0.5866  
 
 - - -  
- [33] **fbodybodyaccjerkmagmeanAvg**
+###### [33] **fbodybodyaccjerkmagmeanAvg**
 
 	Class: numeric 
 	Min: -0.9940  Max:  0.5384  
 
 - - -  
- [34] **fbodybodygyromagmeanAvg**
+###### [34] **fbodybodygyromagmeanAvg**
 
 	Class: numeric 
 	Min: -0.9865  Max:  0.2040  
 
 - - -  
- [35] **fbodybodygyrojerkmagmeanAvg**
+###### [35] **fbodybodygyrojerkmagmeanAvg**
 
 	Class: numeric 
 	Min: -0.9976  Max:  0.1466  
 
 - - -  
- [36] **tbodyaccstdxAvg**
+###### [36] **tbodyaccstdxAvg**
 
 	Class: numeric 
 	Min: -0.9961  Max:  0.6269  
 
 - - -  
- [37] **tbodyaccstdyAvg**
+###### [37] **tbodyaccstdyAvg**
 
 	Class: numeric 
 	Min: -0.99024  Max:  0.61694  
 
 - - -  
- [38] **tbodyaccstdzAvg**
+###### [38] **tbodyaccstdzAvg**
 
 	Class: numeric 
 	Min: -0.9877  Max:  0.6090  
 
 - - -  
- [39] **tgravityaccstdxAvg**
+###### [39] **tgravityaccstdxAvg**
 
 	Class: numeric 
 	Min: -0.9968  Max: -0.8296  
 
 - - -  
- [40] **tgravityaccstdyAvg**
+###### [40] **tgravityaccstdyAvg**
 
 	Class: numeric 
 	Min: -0.9942  Max: -0.6436  
 
 - - -  
- [41] **tgravityaccstdzAvg**
+###### [41] **tgravityaccstdzAvg**
 
 	Class: numeric 
 	Min: -0.9910  Max: -0.6102  
 
 - - -  
- [42] **tbodyaccjerkstdxAvg**
+###### [42] **tbodyaccjerkstdxAvg**
 
 	Class: numeric 
 	Min: -0.9946  Max:  0.5443  
 
 - - -  
- [43] **tbodyaccjerkstdyAvg**
+###### [43] **tbodyaccjerkstdyAvg**
 
 	Class: numeric 
 	Min: -0.9895  Max:  0.3553  
 
 - - -  
- [44] **tbodyaccjerkstdzAvg**
+###### [44] **tbodyaccjerkstdzAvg**
 
 	Class: numeric 
 	Min: -0.99329  Max:  0.03102  
 
 - - -  
- [45] **tbodygyrostdxAvg**
+###### [45] **tbodygyrostdxAvg**
 
 	Class: numeric 
 	Min: -0.9943  Max:  0.2677  
 
 - - -  
- [46] **tbodygyrostdyAvg**
+###### [46] **tbodygyrostdyAvg**
 
 	Class: numeric 
 	Min: -0.9942  Max:  0.4765  
 
 - - -  
- [47] **tbodygyrostdzAvg**
+###### [47] **tbodygyrostdzAvg**
 
 	Class: numeric 
 	Min: -0.9855  Max:  0.5649  
 
 - - -  
- [48] **tbodygyrojerkstdxAvg**
+###### [48] **tbodygyrojerkstdxAvg**
 
 	Class: numeric 
 	Min: -0.9965  Max:  0.1791  
 
 - - -  
- [49] **tbodygyrojerkstdyAvg**
+###### [49] **tbodygyrojerkstdyAvg**
 
 	Class: numeric 
 	Min: -0.9971  Max:  0.2959  
 
 - - -  
- [50] **tbodygyrojerkstdzAvg**
+###### [50] **tbodygyrojerkstdzAvg**
 
 	Class: numeric 
 	Min: -0.9954  Max:  0.1932  
 
 - - -  
- [51] **tbodyaccmagstdAvg**
+###### [51] **tbodyaccmagstdAvg**
 
 	Class: numeric 
 	Min: -0.9865  Max:  0.4284  
 
 - - -  
- [52] **tgravityaccmagstdAvg**
+###### [52] **tgravityaccmagstdAvg**
 
 	Class: numeric 
 	Min: -0.9865  Max:  0.4284  
 
 - - -  
- [53] **tbodyaccjerkmagstdAvg**
+###### [53] **tbodyaccjerkmagstdAvg**
 
 	Class: numeric 
 	Min: -0.9946  Max:  0.4506  
 
 - - -  
- [54] **tbodygyromagstdAvg**
+###### [54] **tbodygyromagstdAvg**
 
 	Class: numeric 
 	Min: -0.9814  Max:  0.3000  
 
 - - -  
- [55] **tbodygyrojerkmagstdAvg**
+###### [55] **tbodygyrojerkmagstdAvg**
 
 	Class: numeric 
 	Min: -0.9977  Max:  0.2502  
 
 - - -  
- [56] **fbodyaccstdxAvg**
+###### [56] **fbodyaccstdxAvg**
 
 	Class: numeric 
 	Min: -0.9966  Max:  0.6585  
 
 - - -  
- [57] **fbodyaccstdyAvg**
+###### [57] **fbodyaccstdyAvg**
 
 	Class: numeric 
 	Min: -0.99068  Max:  0.56019  
 
 - - -  
- [58] **fbodyaccstdzAvg**
+###### [58] **fbodyaccstdzAvg**
 
 	Class: numeric 
 	Min: -0.9872  Max:  0.6871  
 
 - - -  
- [59] **fbodyaccjerkstdxAvg**
+###### [59] **fbodyaccjerkstdxAvg**
 
 	Class: numeric 
 	Min: -0.9951  Max:  0.4768  
 
 - - -  
- [60] **fbodyaccjerkstdyAvg**
+###### [60] **fbodyaccjerkstdyAvg**
 
 	Class: numeric 
 	Min: -0.9905  Max:  0.3498  
 
 - - -  
- [61] **fbodyaccjerkstdzAvg**
+###### [61] **fbodyaccjerkstdzAvg**
 
 	Class: numeric 
 	Min: -0.993108  Max: -0.006236  
 
 - - -  
- [62] **fbodygyrostdxAvg**
+###### [62] **fbodygyrostdxAvg**
 
 	Class: numeric 
 	Min: -0.9947  Max:  0.1966  
 
 - - -  
- [63] **fbodygyrostdyAvg**
+###### [63] **fbodygyrostdyAvg**
 
 	Class: numeric 
 	Min: -0.9944  Max:  0.6462  
 
 - - -  
- [64] **fbodygyrostdzAvg**
+###### [64] **fbodygyrostdzAvg**
 
 	Class: numeric 
 	Min: -0.9867  Max:  0.5225  
 
 - - -  
- [65] **fbodyaccmagstdAvg**
+###### [65] **fbodyaccmagstdAvg**
 
 	Class: numeric 
 	Min: -0.9876  Max:  0.1787  
 
 - - -  
- [66] **fbodybodyaccjerkmagstdAvg**
+###### [66] **fbodybodyaccjerkmagstdAvg**
 
 	Class: numeric 
 	Min: -0.9944  Max:  0.3163  
 
 - - -  
- [67] **fbodybodygyromagstdAvg**
+###### [67] **fbodybodygyromagstdAvg**
 
 	Class: numeric 
 	Min: -0.9815  Max:  0.2367  
 
 - - -  
- [68] **fbodybodygyrojerkmagstdAvg**
+###### [68] **fbodybodygyrojerkmagstdAvg**
 
 	Class: numeric 
 	Min: -0.9976  Max:  0.2878  
