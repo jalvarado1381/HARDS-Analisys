@@ -12,7 +12,8 @@ The files mentioned above are contained in an directory called *"UCI HAR Dataset
 
 **Above image was generated in GNU/Linux using the command ```tree - version 1.6.0```**
 
-As you can see at the image *"UCI HAR Dataset"* is compound by two subdirectories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the Code Book).
+As you can look at in the image the directory *"UCI HAR Dataset"* is compound by two subdirectories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the codebook for this data set).
+
 
 Our work consist in merge the files X_test.txt and X_train.txt located in the directories **test** and **train** respectively to build a data set from which we're going to take the means() and std() variables to create newly another data set with only those variables, once we have it, it is necessary to generate another new data set with the [average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean) of each variable for each activity and each subject.
 
@@ -37,9 +38,9 @@ The number 1 represent the first person, the number 2 the second,  and so on...
 
 At the final Data Set you're going to observe each value is repeated 6 times along with the variable activityname.
 
-	Class: Integer
+	Class: Integer(Ordinal)
 
-	Value Range: 1 - 30
+	Values range: 1 - 30
 
       		The number 1 represent the first person, the number 2 the second one,  and so on...
 
@@ -48,12 +49,14 @@ At the final Data Set you're going to observe each value is repeated 6 times alo
 
 It represent each of the six activities performed by the subjects.
 
-	Class: Factor
+	Class: Factor(Categorical)
 
 	Values range: 6 levels
 
-        	"WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
-        	1              2                     3               4           5          6
+        "WALKING"| "WALKING_UPSTAIRS"| "WALKING_DOWNSTAIRS"| "SITTING"| "STANDING"| "LAYING"
+        ---------|-------------------|---------------------|----------|-----------|----------
+         1|2 |3 | 4 | 5 | 6   
+        	
 - - -
 [3] **tbodyaccmeanxAvg**
 
