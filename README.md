@@ -86,6 +86,7 @@ Through the execution it is printing each of the part it is executing. So you ha
         3.- Translating numbers to descritive names, for activities.
         4.- Working on variable names.
         5.- Creating the new Data Set and and taking it to a file.
+        The file "finalhards.txt" has been created in the working directory /home/jalvarado/cursos_r/coursera/getdata-015/project/HARDS-Analisys.
 
 It indicate the execution was success and you have a new data.frame object created called `finalhards` and a new file in your working directory called `finalhards.txt`, where are stored a copy of the tidy data required.
 
