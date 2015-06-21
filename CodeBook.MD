@@ -53,9 +53,9 @@ It represent each of the six activities performed by the subjects.
 
 	Values range: 6 levels
 
-        "WALKING"| "WALKING_UPSTAIRS"| "WALKING_DOWNSTAIRS"| "SITTING"| "STANDING"| "LAYING"
-        ---------|-------------------|---------------------|----------|-----------|----------
-         1|2 |3 | 4 | 5 | 6   
+"WALKING"| "WALKING_UPSTAIRS"| "WALKING_DOWNSTAIRS"| "SITTING"| "STANDING"| "LAYING"
+---------|-------------------|---------------------|----------|-----------|----------
+1|2 |3 | 4 | 5 | 6   
         	
 - - -
 [3] **tbodyaccmeanxAvg**
