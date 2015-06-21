@@ -14,7 +14,6 @@ The files mentioned above are contained in an directory called *"UCI HAR Dataset
 
 As you can look at in the image the directory *"UCI HAR Dataset"* is compound by two subdirectories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the codebook for this data set).
 
-
 Our work consist in merge the files X_test.txt and X_train.txt located in the directories **test** and **train** respectively to build a data set from which we're going to take the means() and std() variables to create newly another data set with only those variables, once we have it, it is necessary to generate another new data set with the [average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean) of each variable for each activity and each subject.
 
 ##Variables
@@ -23,10 +22,11 @@ The variables exposed here, are based on those ones contained in the codebook gi
 
 By applying the functions grep function I reduced the quantity of variables from 561 to 66, that are the total of variables with the pattern strings "mean()" and "std()", and after adding the subjectid and activityname, the quantity of variables to work with was placed in 68.
 
-The way as they were obtained was applying the  `mean()` function on the mean() and std() variables on original data set.
+The way as they were obtained was applying the  `mean()` function on the mean() and std() variables on original data set, grouping the observations by subject and activities.
 
-####List of variables
+####List of variables:
 
+The name of each variable has been numbered, according to its position in the data set, to ease the location.
 - - - 
 [1] **subjectid**
 
