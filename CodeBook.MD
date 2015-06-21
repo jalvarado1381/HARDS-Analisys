@@ -52,11 +52,11 @@ It represent each of the six activities performed by the subjects.
 	Class: Factor(Categorical)
 
 	Values range: 6 levels
+	
+ Levels     | 1                 | 2                   | 3                   | 4         | 5         | 6
+------------|-------------------|---------------------|---------------------|-----------|-----------|----------
+ **Activities** |"WALKING"          | "WALKING_UPSTAIRS"  | "WALKING_DOWNSTAIRS"| "SITTING" | "STANDING"| "LAYING"
 
-"WALKING"| "WALKING_UPSTAIRS"| "WALKING_DOWNSTAIRS"| "SITTING"| "STANDING"| "LAYING"
----------|-------------------|---------------------|----------|-----------|----------
-1|2 |3 | 4 | 5 | 6   
-        	
 - - -
 [3] **tbodyaccmeanxAvg**
 
