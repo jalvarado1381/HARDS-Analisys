@@ -1,5 +1,10 @@
 HARDS Analysis
 =====================
+[Overview Explanation](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/README.md#overview-explanation)
+
+[Script Explanation]((https://github.com/jalvarado1381/HARDS-Analysis/blob/master/README.md#script-explanation))
+
+[How to execute the script run_analysis.R]()
 
 ## Overview Explanation
 
