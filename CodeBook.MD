@@ -29,19 +29,13 @@ The name of each variable has been numbered, according to its position in the da
 - - - 
 [1] **subjectid**
 
-The Subject ID  used to identify the subject under analysis and its respective observations. 
-
-It take values from 1 to 30, since 30 was the total of people in the research.
-
-The number 1 represent the first person, the number 2 the second,  and so on...
-
-At the final Data Set you're going to observe each value is repeated 6 times along with the variable activityname.
+Identify the subject under analysis and its respective observations. 
 
 	Class: Integer(Ordinal)
 
 	Values range: 1 - 30
 
-      		The number 1 represent the first person, the number 2 the second one,  and so on...
+      		The number 1 represent the first subject, the number 2 the second one,  and so on...
 
 - - -
 [2] **activityname**
