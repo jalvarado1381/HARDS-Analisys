@@ -101,7 +101,7 @@ write.table(finalhards, "finalhards.txt", sep=",", row.names=FALSE)
 
 if (file.exists("finalhards.txt")){
   
-  cat("The file \"finalhards.txt\" has been created in the working directory ", getwd(), ".", sep="")
+  cat("The file \"finalhards.txt\" has been created in the working directory ", getwd(), ".\n", sep="")
   
 } else{
   cat("It was able to create the file \"finalhards.txt\".")
