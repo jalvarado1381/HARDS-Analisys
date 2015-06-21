@@ -22,7 +22,7 @@ Our work consist in merge the files X_test.txt and X_train.txt located in the di
 
 ##Variables
 
-The variables exposed here, are based on those ones contained in the codebook given  in the files features_info.txt and features.txt from the directory *"UCI HAR Dataset"*. 
+The variables exposed here, are based on those ones contained in the codebook given  in the files features_info.txt and features.txt from the directory [*"UCI HAR Dataset"*](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
 By applying the functions grep function I reduced the quantity of variables from 561 to 66, that are the total of variables with the pattern strings "mean()" and "std()", and after adding the subjectid and activityname, the quantity of variables to work with was placed in 68.
 
