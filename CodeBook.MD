@@ -8,9 +8,8 @@ With the help of this smartphone was possible to get spatial, acceleration, velo
 
 The files mentioned above are contained in an directory called *"UCI HAR Dataset"* and can be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). This directory is structured as follow: 
 
-![UCI HAR Dataset directory image](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure2.png "UCI HAR Dataset directory")
+![UCI HAR Dataset directory image](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/UCI_HAR_Dataset_Structure2.png "Image generated in GNU/Linux using the command tree - version 1.6.0")
 
-**Above image was generated in GNU/Linux using the command ```tree - version 1.6.0```**
 
 As you can look at in the image the directory *"UCI HAR Dataset"* is compound by two subdirectories called **test** and **train**, containing the data obtained in  the experiment (X_test.txt and X_train.txt files), the README.txt (general information about experiment and the data)  and the files activity_labels.txt, features_info.txt and features.txt (these three last file made up the codebook for this data set).
 
