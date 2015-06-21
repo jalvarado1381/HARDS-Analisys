@@ -1,5 +1,11 @@
 #Codebook
 
+[Overview Explanation](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#overview-explanation)
+
+[Variables](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#variables)
+[]()
+
+
 ## Overview Explanation
 
 This exercise, that I have called HARDS Analysis (Human Activity Recognition Data Set Analysis), consist in analyse and study the data stored in a set of files generated from a experiment, where  a group of 30 people performed a serie of activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING), wearing a smartphone with embedded accelerometer and gyroscope. The goal of this experiment is to study the [Human Activity Recognition] (https://en.wikipedia.org/wiki/Activity_recognition) since today it is easier and cheaper to survey data about it with the used of smartphones.
