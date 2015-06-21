@@ -98,3 +98,11 @@ finalhards<-cbind(idfields, finalhards)
 rm(subjectId, activity, activityLabels, hardsListSubjects,  idfields ) ## removing objects
 
 write.table(finalhards, "finalhards.txt", sep=",", row.names=FALSE)
+
+if (file.exists("finalhards.txt")){
+  
+  cat("The file \"finalhards.txt\" has been created in the working directory ", getwd(), ".")
+  
+}
+else{cat("it was able to create the file \"finalhards.txt\".")}
+
