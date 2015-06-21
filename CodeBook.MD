@@ -5,7 +5,6 @@
 [Variables](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#variables)
   > [List of variables](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#list-of-variables)
 
-
 ## Overview Explanation
 
 This exercise, that I have called HARDS Analysis (Human Activity Recognition Data Set Analysis), consist in analyse and study the data stored in a set of files generated from a experiment, where  a group of 30 people performed a serie of activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING), wearing a smartphone with embedded accelerometer and gyroscope. The goal of this experiment is to study the [Human Activity Recognition] (https://en.wikipedia.org/wiki/Activity_recognition) since today it is easier and cheaper to survey data about it with the used of smartphones.
@@ -44,7 +43,7 @@ Identify the subject under analysis and its respective observations.
       		The number 1 represent the first subject, the number 2 the second one,  and so on...
 
 - - -
-[2] **activityname**
+######[2] **activityname**
 
 It represent each of the six activities performed by the subjects.
 
@@ -57,175 +56,175 @@ It represent each of the six activities performed by the subjects.
  **Activities** |"WALKING"          | "WALKING_UPSTAIRS"  | "WALKING_DOWNSTAIRS"| "SITTING" | "STANDING"| "LAYING"
 
 - - -
-[3] **tbodyaccmeanxAvg**
+######[3] **tbodyaccmeanxAvg**
 
 	Class: numeric 
 	Min: 0.2216  Max: 0.3015  
 
 - - -  
- [4] **tbodyaccmeanyAvg**
+######[4] **tbodyaccmeanyAvg**
 
 	Class: numeric 
 	Min: -0.040514  Max: -0.001308  
 
 - - -  
- [5] **tbodyaccmeanzAvg**
+ ######[5] **tbodyaccmeanzAvg**
 
 	Class: numeric 
 	Min: -0.15251  Max: -0.07538  
 
 - - -  
- [6] **tgravityaccmeanxAvg**
+######[6] **tgravityaccmeanxAvg**
 
 	Class: numeric 
 	Min: -0.6800  Max:  0.9745  
 
 - - -  
- [7] **tgravityaccmeanyAvg**
+######[7] **tgravityaccmeanyAvg**
 
 	Class: numeric 
 	Min: -0.47989  Max:  0.95659  
 
 - - -  
- [8] **tgravityaccmeanzAvg**
+###### [8] **tgravityaccmeanzAvg**
 
 	Class: numeric 
 	Min: -0.49509  Max:  0.95787  
 
 - - -  
- [9] **tbodyaccjerkmeanxAvg**
+###### [9] **tbodyaccjerkmeanxAvg**
 
 	Class: numeric 
 	Min: 0.04269  Max: 0.13019  
 
 - - -  
- [10] **tbodyaccjerkmeanyAvg**
+###### [10] **tbodyaccjerkmeanyAvg**
 
 	Class: numeric 
 	Min: -0.0386872  Max:  0.0568186  
 
 - - -  
- [11] **tbodyaccjerkmeanzAvg**
+###### [11] **tbodyaccjerkmeanzAvg**
 
 	Class: numeric 
 	Min: -0.067458  Max:  0.038053  
 
 - - -  
- [12] **tbodygyromeanxAvg**
+###### [12] **tbodygyromeanxAvg**
 
 	Class: numeric 
 	Min: -0.20578  Max:  0.19270  
 
 - - -  
- [13] **tbodygyromeanyAvg**
+###### [13] **tbodygyromeanyAvg**
 
 	Class: numeric 
 	Min: -0.20421  Max:  0.02747  
 
 - - -  
- [14] **tbodygyromeanzAvg**
+###### [14] **tbodygyromeanzAvg**
 
 	Class: numeric 
 	Min: -0.07245  Max:  0.17910  
 
 - - -  
- [15] **tbodygyrojerkmeanxAvg**
+###### [15] **tbodygyrojerkmeanxAvg**
 
 	Class: numeric 
 	Min: -0.15721  Max: -0.02209  
 
 - - -  
- [16] **tbodygyrojerkmeanyAvg**
+###### [16] **tbodygyrojerkmeanyAvg**
 
 	Class: numeric 
 	Min: -0.07681  Max: -0.01320  
 
 - - -  
- [17] **tbodygyrojerkmeanzAvg**
+###### [17] **tbodygyrojerkmeanzAvg**
 
 	Class: numeric 
 	Min: -0.092500  Max: -0.006941  
 
 - - -  
- [18] **tbodyaccmagmeanAvg**
+###### [18] **tbodyaccmagmeanAvg**
 
 	Class: numeric 
 	Min: -0.9865  Max:  0.6446  
 
 - - -  
- [19] **tgravityaccmagmeanAvg**
+###### [19] **tgravityaccmagmeanAvg**
 
 	Class: numeric 
 	Min: -0.9865  Max:  0.6446  
 
 - - -  
- [20] **tbodyaccjerkmagmeanAvg**
+###### [20] **tbodyaccjerkmagmeanAvg**
 
 	Class: numeric 
 	Min: -0.9928  Max:  0.4345  
 
 - - -  
- [21] **tbodygyromagmeanAvg**
+###### [21] **tbodygyromagmeanAvg**
 
 	Class: numeric 
 	Min: -0.9807  Max:  0.4180  
 
 - - -  
- [22] **tbodygyrojerkmagmeanAvg**
+###### [22] **tbodygyrojerkmagmeanAvg**
 
 	Class: numeric 
 	Min: -0.99732  Max:  0.08758  
 
 - - -  
- [23] **fbodyaccmeanxAvg**
+###### [23] **fbodyaccmeanxAvg**
 
 	Class: numeric 
 	Min: -0.9952  Max:  0.5370  
 
 - - -  
- [24] **fbodyaccmeanyAvg**
+###### [24] **fbodyaccmeanyAvg**
 
 	Class: numeric 
 	Min: -0.98903  Max:  0.52419  
 
 - - -  
- [25] **fbodyaccmeanzAvg**
+###### [25] **fbodyaccmeanzAvg**
 
 	Class: numeric 
 	Min: -0.9895  Max:  0.2807  
 
 - - -  
- [26] **fbodyaccjerkmeanxAvg**
+###### [26] **fbodyaccjerkmeanxAvg**
 
 	Class: numeric 
 	Min: -0.9946  Max:  0.4743  
 
 - - -  
- [27] **fbodyaccjerkmeanyAvg**
+###### [27] **fbodyaccjerkmeanyAvg**
 
 	Class: numeric 
 	Min: -0.9894  Max:  0.2767  
 
 - - -  
- [28] **fbodyaccjerkmeanzAvg**
+###### [28] **fbodyaccjerkmeanzAvg**
 
 	Class: numeric 
 	Min: -0.9920  Max:  0.1578  
 
 - - -  
- [29] **fbodygyromeanxAvg**
+###### [29] **fbodygyromeanxAvg**
 
 	Class: numeric 
 	Min: -0.9931  Max:  0.4750  
 
 - - -  
- [30] **fbodygyromeanyAvg**
+###### [30] **fbodygyromeanyAvg**
 
 	Class: numeric 
 	Min: -0.9940  Max:  0.3288  
 
 - - -  
- [31] **fbodygyromeanzAvg**
+###### [31] **fbodygyromeanzAvg**
 
 	Class: numeric 
 	Min: -0.9860  Max:  0.4924  
