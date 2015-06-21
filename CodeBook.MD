@@ -3,7 +3,8 @@
 [Overview Explanation](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#overview-explanation)
 
 [Variables](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#variables)
-[]()
+
+> [List of variables](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#list-of-variables)
 
 
 ## Overview Explanation
