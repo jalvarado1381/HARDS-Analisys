@@ -12,16 +12,16 @@ activityLabels<-read.table("UCI HAR Dataset/activity_labels.txt", stringsAsFacto
 xtest<-read.table("UCI HAR Dataset/test/X_test.txt")
 testSubjects<-read.table("UCI HAR Dataset/test/subject_test.txt")
 testActivities<-read.table("UCI HAR Dataset/test/y_test.txt")
-xtest2<-cbind(testSubjects,cbind(testActivities, xtest))
-names(xtest2) <- c("Subject", "Activities", featuresVar$V2)
+xtest<-cbind(testSubjects,cbind(testActivities, xtest))
+names(xtest) <- c("Subject", "Activities", featuresVar$V2)
 
 xtrain<-read.table("UCI HAR Dataset/train/X_train.txt")
 trainSubjects<-read.table("UCI HAR Dataset/train/subject_train.txt")
 trainActivities<-read.table("UCI HAR Dataset/train/y_train.txt")
-xtrain2<-cbind(trainSubjects,cbind(trainActivities, xtrain))
-names(xtrain2) <- c("Subject", "Activities", featuresVar$V2)
+xtrain<-cbind(trainSubjects,cbind(trainActivities, xtrain))
+names(xtrain) <- c("Subject", "Activities", featuresVar$V2)
 
-hards <- rbind(xtrain2,xtest2[1:length(xtest2[,1]),])
+hards <- rbind(xtrain,xtest[1:length(xtest[,1]),])
 names(hards) <- c("Subject", "Activities", featuresVar$V2)
 
 ############################################################################################
@@ -29,10 +29,11 @@ names(hards) <- c("Subject", "Activities", featuresVar$V2)
 ############################################################################################
 
 cat("2.- Extracting the measurements on the mean and standard deviation for each measurement.\n")
-meanstdRows <-c(grep("mean()", names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
-hards<-hards[c(1,2,meanstdRows)]
 
-rm(meanstdRows,xtrain2,xtest2,featuresVar, trainActivities,
+meanstdVariables <-c(grep("mean()", names(hards), fixed=TRUE), grep("std()",names(hards), fixed=TRUE))
+hards<-hards[c(1,2,meanstdVariables)]
+
+rm(meanstdVariables,featuresVar, trainActivities,
    trainSubjects, testActivities,testSubjects, xtrain, xtest) ## removing objects
 
 ##############################################################################
@@ -41,15 +42,15 @@ rm(meanstdRows,xtrain2,xtest2,featuresVar, trainActivities,
 
 activityLabels<-read.table("UCI HAR Dataset/activity_labels.txt", stringsAsFactors=FALSE)
 cat("3.- Translating numbers to descritive names, for activities.\n")
-for (l in activityLabels[[1]]){
-  hards$Activities[hards$Activities==l] <- activityLabels[l,2]
+for (activity in activityLabels[[1]]){
+  hards$Activities[hards$Activities==activity] <- activityLabels[activity,2]
 }
 
-rm(l) ## removing objects
+rm(activity) ## removing objects
 
-##########################################################################
-# 4.- Appropriately labels the data set with descriptive variable names. #
-##########################################################################
+#############################################################################################
+# 4.- Working on variable names to appropriately labels the data set with descriptive ones. #
+#############################################################################################
 
 cat("4.- Working on variable names.\n")
 varNames<-tolower(names(hards)[3:68])
@@ -67,9 +68,11 @@ rm(varNames) ## removing objects
 
 cat("5.- Creating the new Data Set and and taking it to a file.\n")
 
+#pre-creating List 
 hardsListSubjects <- list()
 hardsListActivities <- list()
 
+<<<<<<< HEAD
 # for(subjectId in 1:30){  
 #     for(activity in 1:6){
 #       tempdf <-hards[hards$subjectid==subjectId & hards$activityname==activityLabels[activity,2],]      
@@ -81,20 +84,40 @@ hardsListActivities <- list()
 # }
 
 tapply(hards[3], hards$subjectid, mean)
+=======
+#Calculating and collecting average of each variable
+for(subjectId in 1:30){  
+    for(activity in 1:6){
+      tempdf <-hards[hards$subjectid==subjectId & hards$activityname==activityLabels[activity,2],]      
+      hardsListActivities[activityLabels[activity,2]] <- list(data.frame( lapply(tempdf[3:68],mean)))
+    }    
+    hardsListSubjects[subjectId] <- list(hardsListActivities)
+}
+>>>>>>> b8b9fa6308dae51d78c75b1b08c72f8ee3c26df6
 
 rm(hards, subjectId, activity, tempdf, hardsListActivities )
 
-temphards <- data.frame()
+finalhards <- data.frame()
 
+#Appending the new values in an temporal data frame
 for(subjectId in 1:30){  
   for(activity in 1:6){
-    temphards <- rbind.data.frame(temphards,hardsListSubjects[[subjectId]][[activity]])  
+    finalhards <- rbind.data.frame(finalhards,hardsListSubjects[[subjectId]][[activity]])  
   }  
 }
 
 idfields <-data.frame(subjectid=sort(rep(1:30,6)), activityname=activityLabels$V2)
-finalhards<-cbind(idfields, temphards)
+finalhards<-cbind(idfields, finalhards)
 
-rm(subjectId, activity, activityLabels, hardsListSubjects, temphards, idfields ) ## removing objects
+rm(subjectId, activity, activityLabels, hardsListSubjects,  idfields ) ## removing objects
 
-write.csv(finalhards, "finalhards.txt", row.names=FALSE)
+write.table(finalhards, "finalhards.txt", sep=",", row.names=FALSE)
+
+if (file.exists("finalhards.txt")){
+  
+  cat("The file \"finalhards.txt\" has been created in the working directory ", getwd(), ".\n", sep="")
+  
+} else{
+  cat("It was able to create the file \"finalhards.txt\".")
+}
+
