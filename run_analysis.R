@@ -70,13 +70,17 @@ cat("5.- Creating the new Data Set and and taking it to a file.\n")
 hardsListSubjects <- list()
 hardsListActivities <- list()
 
-for(subjectId in 1:30){  
-    for(activity in 1:6){
-      tempdf <-hards[hards$subjectid==subjectId & hards$activityname==activityLabels[activity,2],]      
-      hardsListActivities[activityLabels[activity,2]] <- list(data.frame( lapply(tempdf[3:68],mean)))
-    }    
-    hardsListSubjects[subjectId] <- list(hardsListActivities)
-}
+# for(subjectId in 1:30){  
+#     for(activity in 1:6){
+#       tempdf <-hards[hards$subjectid==subjectId & hards$activityname==activityLabels[activity,2],]      
+#       #hardsListActivities[activityLabels[activity,2]] <- list(data.frame( lapply(tempdf[3:68],mean)))
+#       hardsListActivities[activityLabels[activity,2]] <- lapply(tempdf[3:68],mean)
+#       
+#     }    
+#     hardsListSubjects[subjectId] <- list(hardsListActivities)
+# }
+
+tapply(hards[3], hards$subjectid, mean)
 
 rm(hards, subjectId, activity, tempdf, hardsListActivities )
 
