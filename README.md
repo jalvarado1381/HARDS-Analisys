@@ -20,7 +20,7 @@ As you can see at the image it is compound by two directories called **test** an
 
 Our work consist in merge the files X_test.txt and X_train.txt located in the directories **test** and **train** respectively to build a data set from which we're going to take the means() and std() variables to create newly another data set with only those variables, once we have it, it is necessary to generate another new data set with the [average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean) of each variable for each activity and each subject.
 
-##Script Explanation
+## Script Explanation
 
 For the development of this script I was focused on only using the base library of R, so you will notice that only appear basic functions and tools for completing the requirement.
 
@@ -65,7 +65,7 @@ Withing the second for loop were grouped all the observations collected in ```ha
 
 At last, ```finalhards``` was merged with the data frame ```idfields```, that has the new arrangements of the ```subjectid``` and ```activityname``` variables, using the function ```cbind()```.
 
-##How to execute the script run_analysis.R
+## How to execute the script run_analysis.R
 
 1.- Clone the repository HARDS-Analysis from github
 
@@ -97,5 +97,5 @@ It indicate the execution was success and you have a new data.frame object creat
 
 **NOTES**: For information about the variables in this data set please  refer to its [codebook](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD).
 
-##Data set Source
+## Data set Source
 If you want more information about the original data set you can go [here]( http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
