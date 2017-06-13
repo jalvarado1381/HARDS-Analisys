@@ -1,4 +1,4 @@
-#Codebook
+# Codebook
 
 [Overview Explanation](https://github.com/jalvarado1381/HARDS-Analysis/blob/master/CodeBook.MD#overview-explanation)
 
@@ -20,7 +20,7 @@ As you can look at in the image the directory *"UCI HAR Dataset"* is compound by
 
 Our work consist in merge the files X_test.txt and X_train.txt located in the directories **test** and **train** respectively to build a data set from which we're going to take the means() and std() variables to create newly another data set with only those variables, once we have it, it is necessary to generate another new data set with the [average](https://en.wikipedia.org/wiki/Average#Arithmetic_mean) of each variable for each activity and each subject.
 
-##Variables
+## Variables
 
 The variables exposed here, are based on those ones contained in the codebook given  in the files features_info.txt and features.txt from the directory [*"UCI HAR Dataset"*](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
@@ -28,11 +28,11 @@ By applying the function grep I reduced the quantity of variables from 561 to 66
 
 The way as they were obtained was applying the  `mean()` function on the mean() and std() variables on original data set, grouping the observations by subject and activities.
 
-####List of variables:
+#### List of variables:
 
 The name of each variable has been numbered, according to its position in the data set, to ease the location of each one.
 - - - 
-######[1] **subjectid**
+###### [1] **subjectid**
 
 Identify the subject under analysis and its respective observations. 
 
@@ -43,7 +43,7 @@ Identify the subject under analysis and its respective observations.
       		The number 1 represent the first subject, the number 2 the second one,  and so on...
 
 - - -
-######[2] **activityname**
+###### [2] **activityname**
 
 It represent each of the six activities performed by the subjects.
 
@@ -56,31 +56,31 @@ It represent each of the six activities performed by the subjects.
  **Activities** |"WALKING"          | "WALKING_UPSTAIRS"  | "WALKING_DOWNSTAIRS"| "SITTING" | "STANDING"| "LAYING"
 
 - - -
-######[3] **tbodyaccmeanxAvg**
+###### [3] **tbodyaccmeanxAvg**
 
 	Class: numeric 
 	Min: 0.2216  Max: 0.3015  
 
 - - -  
-######[4] **tbodyaccmeanyAvg**
+###### [4] **tbodyaccmeanyAvg**
 
 	Class: numeric 
 	Min: -0.040514  Max: -0.001308  
 
 - - -  
-######[5] **tbodyaccmeanzAvg**
+###### [5] **tbodyaccmeanzAvg**
 
 	Class: numeric 
 	Min: -0.15251  Max: -0.07538  
 
 - - -  
-######[6] **tgravityaccmeanxAvg**
+###### [6] **tgravityaccmeanxAvg**
 
 	Class: numeric 
 	Min: -0.6800  Max:  0.9745  
 
 - - -  
-######[7] **tgravityaccmeanyAvg**
+###### [7] **tgravityaccmeanyAvg**
 
 	Class: numeric 
 	Min: -0.47989  Max:  0.95659  
